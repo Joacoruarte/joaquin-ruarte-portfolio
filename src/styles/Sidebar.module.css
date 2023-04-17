@@ -88,11 +88,15 @@
     transition: all 300ms;
 }
 
-.list_of_sections li {
+.list_of_sections a {
+    width: 100%;
+}
+
+.list_of_sections a li{
     width: 100%;
     padding: 2rem 1rem; 
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     border-bottom: 1px solid #b3afaff0;
     border-color: rgba(255, 255, 255, 0.15);
@@ -101,11 +105,11 @@
     transition: all 300ms;
 }
 
-.list_of_sections li:hover {
+.list_of_sections a li:hover {
     background: #0a1269ad;
 }
 
-.list_of_sections li:last-child {
+.list_of_sections a:last-child {
     border-bottom: 1px solid transparent;
 }
 
@@ -135,7 +139,7 @@
         animation: showBlur 1s ease;
     }
 
-    .list_of_sections.active li{
+    .list_of_sections.active a li{
         border-bottom: none;
         font-size: 30px;
         font-weight: 700;
@@ -144,24 +148,24 @@
         -webkit-background-clip: text;
         background-clip: text;
     }
-    .list_of_sections.active li:nth-child(1){
+    .list_of_sections.active a li:nth-child(1){
         animation: revealLi 0.3s ease;
     }
-    .list_of_sections.active li:nth-child(2){
+    .list_of_sections.active a li:nth-child(2){
         animation: revealLi 0.5s ease;
     }
-    .list_of_sections.active li:nth-child(3){
+    .list_of_sections.active a li:nth-child(3){
         animation: revealLi 0.8s ease;
     }
-    .list_of_sections.active li:nth-child(4){
+    .list_of_sections.active a li:nth-child(4){
         animation: revealLi 1s ease;
     }
-    .list_of_sections.active li:nth-child(5){
+    .list_of_sections.active a li:nth-child(5){
         animation: revealLi 1s ease;
     }
 
+    .list_of_sections 
 
-    
     .left_width {
         display: none;
     }

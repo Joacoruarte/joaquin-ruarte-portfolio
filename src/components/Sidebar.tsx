@@ -23,21 +23,31 @@ export default function Sidebar() {
     <>
       <div className={s.container}>
         <ul className={`${s.list_of_sections} ${active ? s.active : ""}`}>
-          <li onClick={handleClose} className={poppins.className}>
-            <Link href={"#home"}>Home</Link>
-          </li>
-          <li onClick={handleClose} className={poppins.className}>
-            <Link href={"#projects"}>Projects</Link>
-          </li>
-          <li onClick={handleClose} className={poppins.className}>
-            <Link href={"#skills"}>Skills</Link>
-          </li>
-          <li onClick={handleClose} className={poppins.className}>
-            <Link href={"#about"}>About</Link>
-          </li>
-          <li onClick={handleClose} className={poppins.className}>
-            <Link href={"#contact"}>Contact</Link>
-          </li>
+          <Link href={"#home"}>
+            <li onClick={handleClose} className={poppins.className}>
+              Home
+            </li>
+          </Link>
+          <Link href={"#projects"}>
+            <li onClick={handleClose} className={poppins.className}>
+              Projects
+            </li>
+          </Link>
+          <Link href={"#skills"}>
+            <li onClick={handleClose} className={poppins.className}>
+              Skills
+            </li>
+          </Link>
+          <Link href={"#about"}>
+            <li onClick={handleClose} className={poppins.className}>
+              About
+            </li>
+          </Link>
+          <Link href={"#contact"}>
+            <li onClick={handleClose} className={poppins.className}>
+              Contact
+            </li>
+          </Link>
         </ul>
         <div
           onClick={() => setActive(!active)}
