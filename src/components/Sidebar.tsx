@@ -22,14 +22,6 @@ export default function Sidebar() {
   return (
     <>
       <div className={s.container}>
-        <Image
-          src={"/logo.png"}
-          className={s.logo}
-          width={95}
-          height={95}
-          alt="Logo"
-          priority
-        />
         <ul className={`${s.list_of_sections} ${active ? s.active : ""}`}>
           <li onClick={handleClose} className={poppins.className}>
             <Link href={"#home"}>Home</Link>

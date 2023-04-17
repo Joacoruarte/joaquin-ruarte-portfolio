@@ -3,19 +3,13 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   width: 95px;
+   width: 110px;
    background: #040836;
    height: 100vh;
    position: fixed;
    z-index: 100;
    top: 0;
    left: 0;
-}
-
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 /* HAMBURGUER MENU START */
@@ -116,9 +110,6 @@
 }
 
 @media (max-width: 768px) {
-    .logo{
-        display: none;
-    }
     .hamburger_lines {
         display: flex;
     }
