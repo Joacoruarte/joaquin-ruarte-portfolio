@@ -1,0 +1,21 @@
+.projects {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+
+@media (max-width: 1386px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+    }
+}
+@media (max-width: 975px) {
+    .projects {
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+    }
+}

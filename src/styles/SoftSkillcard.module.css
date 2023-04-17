@@ -1,0 +1,12 @@
+.container {
+    background-color: #ff014f;
+    padding: 4px 16px;
+    border-radius: 15px;
+    border: 2px solid #16181A;
+    width: max-content;
+}
+
+.container p {
+    color: #FDFDFD;
+    font-weight: 600;
+}

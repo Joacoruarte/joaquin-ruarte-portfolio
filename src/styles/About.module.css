@@ -1,0 +1,14 @@
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text {
+    padding: .7rem 0;
+    font-size: 20px;
+    max-width: 75ch;
+    font-weight: 100;
+    line-height: 30px;
+}
