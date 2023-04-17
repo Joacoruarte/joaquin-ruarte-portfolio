@@ -7,7 +7,7 @@ import Title from "./Title";
 export default function Projects() {
   return (
     <div id="projects" style={{ width: "100%" }}>
-      <Title title="Projectos." traduction="/ Projects." />
+      <Title title="Proyectos." traduction="/ Projects." />
 
       <div className={s.projects}>
         {projects.map((project, index) => (

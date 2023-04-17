@@ -171,6 +171,7 @@ export default function Contact() {
 
           <div className={s.social_media_icons}>
             <a
+              aria-label="Linkedin"
               href="https://www.linkedin.com/in/joaquinruartejs/"
               target="_blank"
               rel="noreferrer"
@@ -179,6 +180,7 @@ export default function Contact() {
             </a>
 
             <a
+              aria-label="Whatsapp"
               href="https://wa.me/+5492226539525"
               target="_blank"
               rel="noreferrer"
@@ -187,6 +189,7 @@ export default function Contact() {
             </a>
 
             <a
+              aria-label="Github"
               href="https://github.com/Joacoruarte"
               target="_blank"
               rel="noreferrer"
