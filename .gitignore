@@ -5,7 +5,6 @@
 /.pnp
 .pnp.js
 .env
-package-lock.json
 # testing
 /coverage
 
@@ -19,6 +18,7 @@ package-lock.json
 # misc
 .DS_Store
 *.pem
+package-lock.json
 
 # debug
 npm-debug.log*
