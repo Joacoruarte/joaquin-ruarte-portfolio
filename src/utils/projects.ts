@@ -2,6 +2,13 @@ import { CardProjectProps } from "@/interfaces";
 
 export const projects : CardProjectProps[] = [
     {
+        title: 'E-commerce',
+        subtitle: 'E-commerce de ropa',
+        img: '/flip-flops.png',
+        description: 'Projecto fullstack de E-commerce de ojotas. tecnologias: NextJs, Tailwind CSS y MongoDB.',
+        deploy: 'https://www.ojotasartesanal.com/'
+    },
+    {
         title: 'Marvel app',
         subtitle: 'Aplicación mobile con React Native',
         img: '/MARVEL.jpg',
