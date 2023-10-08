@@ -1,13 +1,11 @@
-import React from "react";
-import s from "@/styles/Skills.module.css";
-import Title from "./Title";
-import { Poppins } from "next/font/google";
 import { useNearScreen } from "@/hooks/useNearScreen";
-import SkillCard from "./SkillCard";
-import Image from "next/image";
-import { skills } from "@/utils/skills";
 import { Skill } from "@/interfaces";
+import s from "@/styles/Skills.module.css";
+import { skills } from "@/utils/skills";
+import React from "react";
+import SkillCard from "./SkillCard";
 import SoftSkillCard from "./SoftSkillCard";
+import Title from "./Title";
 
 interface CustomStyles {
   "--d": string;
