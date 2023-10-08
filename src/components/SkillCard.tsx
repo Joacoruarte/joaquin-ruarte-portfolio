@@ -1,7 +1,7 @@
 import React from "react";
 import s from "@/styles/SkillCard.module.css";
 import Image from "next/image";
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 
 interface SkillCardProps {
   src: string;

@@ -1,6 +1,6 @@
 import React from "react";
 import s from "@/styles/SoftSkillcard.module.css";
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 
 interface SoftSkill {
   skill?: string;
