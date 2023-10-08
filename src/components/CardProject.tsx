@@ -46,7 +46,7 @@ export default function CardProject({
               33vw"
             />
           </div>
-          <p>{description}</p>
+          <p dangerouslySetInnerHTML={{__html: description}}/>
         </div>
       </div>
 

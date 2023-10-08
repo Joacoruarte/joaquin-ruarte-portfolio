@@ -5,7 +5,7 @@ export const projects : CardProjectProps[] = [
         title: 'E-commerce',
         subtitle: 'E-commerce de ojotas artesanales',
         img: '/flip-flops.png',
-        description: 'Projecto fullstack de E-commerce de calzado. tecnologias: NextJs, Tailwind CSS y MongoDB.',
+        description: 'Projecto fullstack de E-commerce de calzado para un cliente.<br/>Tecnologias: NextJs, Tailwind CSS y MongoDB.',
         deploy: 'https://www.ojotasartesanal.com/'
     },
     {
@@ -23,24 +23,31 @@ export const projects : CardProjectProps[] = [
         deploy: 'https://netflix-clone-liard-sigma.vercel.app/',
     },
     {
+        title: 'Twitter clon',
+        subtitle: 'Clon de twitter creado con Next.js 13',
+        img: '/twitter.png',
+        description: 'Diseño y desarrollo de un clon de twitter/x.<br/>Tecnologias front: Next.js 13, Sass.<br/>Tecnologias back: Node.js, Express, MySQL, MVC.',
+        deploy: 'https://twitter-clone-client-pi.vercel.app/',
+    },
+    {
         title: 'Book a fly',
         subtitle: 'Aplicación web creada con React',
         img: '/bookAFly.png',
-        description: 'Mini Aplicación web de vuelos, utilizando la libreria de maquina de estado finito Xstate',
+        description: 'Mini Aplicación web de vuelos, utilizando la libreria de maquina de estado finito Xstate.',
         deploy: 'https://joacoruarte.github.io/xstate-platzi/',
     },
     {
         title: 'Mode parfum',
         subtitle: 'E-commerce de perfumes',
         img: '/Mode-Parfum.png',
-        description: 'Projecto fullstack de E-commerce de perfumes. tecnologias: React, Redux, NodeJs, Express, PostgeSQL, Sequelize y CSS Modules.',
+        description: 'Projecto fullstack de E-commerce de perfumes.<br/>Tecnologias: React, Redux, NodeJs, Express, PostgeSQL, Sequelize y CSS Modules.',
         deploy: 'https://mode-parfum.vercel.app/',
     },
     {
         title: 'Pokemon app',
         subtitle: 'Aplicación de pokemóns',
         img: '/Pokemon-Logo.jpg',
-        description: 'Projecto fullstack de pokemón. tecnologias: React, Redux, NodeJs, Express, PostgeSQL, Sequelize y SASS.',
+        description: 'Projecto fullstack de pokemón.<br/>Tecnologias: React, Redux, NodeJs, Express, PostgeSQL, Sequelize y SASS.',
         deploy: 'https://pokemon-api-pi.vercel.app/',
     },
     {
