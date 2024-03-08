@@ -6,7 +6,7 @@ export const projects : CardProjectProps[] = [
         subtitle: 'E-commerce de ojotas artesanales',
         img: '/flip-flops.png',
         description: 'Projecto fullstack de E-commerce de calzado para un cliente.<br/>Tecnologias: NextJs, Tailwind CSS y MongoDB.',
-        deploy: 'https://www.ojotasartesanal.com/'
+        deploy: 'https://ojotas-artesanales-joacoruarte.vercel.app/'
     },
     {
         title: 'Marvel app',
